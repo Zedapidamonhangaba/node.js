@@ -10,3 +10,20 @@ console.log(cliente)
 console.log(cliente.telefone)
 
 console.log(cliente.telefone[1])
+
+
+
+
+
+cliente.endereco = {
+    rua: "Sete de setembro",
+    numero: 924,
+    apartamento: true,
+    complemento:"ap 25"
+}
+
+console.log(cliente)
+
+console.log(cliente.endereco)
+
+console.log(cliente.endereço.rua)
